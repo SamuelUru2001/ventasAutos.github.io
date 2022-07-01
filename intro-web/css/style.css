@@ -117,12 +117,16 @@ p{
   float: left;
   padding: 5px;
 }
-#main-nav {
+/* #main-nav {
   background-color: #333;
   border: 1px solid #666;
   border-radius: 5px 5px 0 0;
   padding: 13px;
   margin-top: 23em;
+} */
+#main-nav {
+  float: right;
+  margin: -6em;
 }
 #main-nav ul li{
   float: left;
@@ -244,6 +248,7 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+
 @media only screen and (max-width: 620px) {
 
     header{
