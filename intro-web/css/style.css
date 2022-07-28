@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+#productos {
+  margin: 3em;
+}
 .clear{
   clear: both;
 }
@@ -82,6 +85,11 @@ footer{
   padding: 3em 0;
   margin-top: auto;
 }
+#productos h1{
+  /* background-color: #153e4d; */
+  font-weight: bold;
+  color: rgb(46, 45, 45);
+}
 h1{
   color: #eb232c;
   margin: 1rem 0;
@@ -103,6 +111,11 @@ p{
   width: 80%;
   margin: 0 auto;
 }
+#productos h1{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -37px;
+} 
 #logo {
   width: 100px;
   opacity: 0.2;
@@ -137,10 +150,10 @@ p{
   color: #fff;
   text-decoration: none;
 }
-#main-nav ul li a:hover{
+/* #main-nav ul li a:hover{
   background-color: #666;
   border-radius: 5px 5px 0 0;
-}
+} */
 
 .slide{
   display: flex;
@@ -192,6 +205,10 @@ border-radius: 10px;
 text-align: center;
 margin: 11px 1px;
 }
+.prod-box:hover{
+ box-shadow:0px -1px 15px 4px rgba(0,0,0,0.9)
+
+}
 .products .prod-box img{
   width: 100%;
 }
@@ -221,6 +238,7 @@ margin: 11px 1px;
   padding: 0.2rem;
 }
 @media only screen and (max-width: 760px) {
+
     .contact{
       flex-direction: column;
     }
@@ -254,6 +272,14 @@ a {
     header{
       background-image: url(../img/a40f7848d1cc1e839f3940873a4b1788.jpg);
       background-position: center;
+    }
+    .products{
+      display: block;
+      
+    }
+   .products .prod-box{
+      display: block;
+      margin: 31px 0;
     }
     #main-nav{
       display: none;
@@ -293,4 +319,13 @@ a {
     color: #153e4d;
     margin: 0.5em 0;
     }
+    h1{
+      text-align: center;
+    }
 }
+/* #main-nav {
+
+  padding: 0 2em;
+  color: #fff;
+  position: relative;
+} */
