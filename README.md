@@ -1,7 +1,4 @@
-#   SAMUEL   #
- # URUNAGA #
-   ######
+## SAMUEL URUNAGA ##
 
-### 28-06 ###
-
-### Pagina Terminada ###
+# Link De Mi Pagina #
+https://samueluru2001.github.io/ventasAutos.github.io/index.html
