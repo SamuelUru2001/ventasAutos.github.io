@@ -9,10 +9,6 @@
 .clear{
   clear: both;
 }
-/* main{
-  margin-bottom: 9.7%;
-} */
-/* main margin-bottom: 10%;  el footer siempre al final */
 .Button-buy{
   display: inline-block;
   margin: 0.5rem 0;
@@ -63,7 +59,7 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* esto y en el footer margin-top: auto deja el footer en el pie de la foto */
+  min-height: 100vh;
 }
 
 header {
@@ -86,7 +82,6 @@ footer{
   margin-top: auto;
 }
 #productos h1{
-  /* background-color: #153e4d; */
   font-weight: bold;
   color: rgb(46, 45, 45);
 }
@@ -130,13 +125,6 @@ p{
   float: left;
   padding: 5px;
 }
-/* #main-nav {
-  background-color: #333;
-  border: 1px solid #666;
-  border-radius: 5px 5px 0 0;
-  padding: 13px;
-  margin-top: 23em;
-} */
 #main-nav {
   float: right;
   margin: -6em;
@@ -150,11 +138,6 @@ p{
   color: #fff;
   text-decoration: none;
 }
-/* #main-nav ul li a:hover{
-  background-color: #666;
-  border-radius: 5px 5px 0 0;
-} */
-
 .slide{
   display: flex;
   margin-bottom: 5px;
@@ -323,9 +306,3 @@ a {
       text-align: center;
     }
 }
-/* #main-nav {
-
-  padding: 0 2em;
-  color: #fff;
-  position: relative;
-} */
